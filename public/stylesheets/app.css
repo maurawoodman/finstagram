@@ -16,7 +16,7 @@ main {
   border-radius: 50%;
 }
 body {
-  font-family: 'Lobster', cursive;
+  font-family: 'lobster', cursive;
 a.photo {
   transition: padding 0.5s;
 }
