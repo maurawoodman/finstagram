@@ -3,7 +3,6 @@
 # end
 
 
-
 def humanized_time_ago(time_ago_in_minutes)
   if time_ago_in_minutes >= 60
     "#{time_ago_in_minutes / 60} hours ago"
@@ -51,4 +50,19 @@ get '/' do
     }]
   }
     [finstagram_post_shark, finstagram_post_whale, finstagram_post_marlin].to_s
+end
+
+
+get "/fizzbuzz" do
+    my_string = ""
+    for number in 1..100 do
+        if number % 3 == 0
+            my_string = my_string + "Fizz <br/>"
+        elsif number % 5 == 0 
+        my_string = my_string + "buzz <br/>"
+        elsif number % 3== 0 number % 5==0
+        my_string = my_string + "fizzbuzz br/>"
+    my_string= my_string + "#{number} <br/>"
+    end
+    return my_string
 end
