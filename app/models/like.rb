@@ -1,6 +1,6 @@
-class Like < ActiveRecord::Base
+# frozen_string_literal: true
 
+class Like < ActiveRecord::Base
   belongs_to :user
   belongs_to :finstagram_post
-
 end
