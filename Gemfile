@@ -1,5 +1,7 @@
+# frozen_string_literal: true
+
 # A sample Gemfile
-source "https://rubygems.org"
+source 'https://rubygems.org'
 
 gem 'rake'
 gem 'activesupport'
@@ -16,4 +18,6 @@ group :development, :test do
   gem 'pry'
   gem 'shotgun'
   gem 'sqlite3', '~> 1.3.6'
+  gem 'rubocop'
+  gem 'solargraph'
 end
