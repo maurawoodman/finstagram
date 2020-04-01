@@ -6,6 +6,7 @@ helpers do
   end
 end
 
+<<<<<<< HEAD
 post '/likes' do
   finstagram_post_id = params[:finstagram_post_id]
 
@@ -36,6 +37,8 @@ post '/comments' do
   redirect(back)
 end
 
+=======
+>>>>>>> 743616c942321e2fcc691c28e5a5ba06240ffe16
 get '/finstagram_posts/new' do
   @finstagram_post = FinstagramPost.new
   erb(:"finstagram_posts/new")
